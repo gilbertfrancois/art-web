@@ -1,0 +1,21 @@
+{
+    "name": "p5-template",
+    "version": "1.0.0",
+    "description": "P5.js template",
+    "scripts": {
+        "dev": "npx parcel src/index.html",
+        "prod": "npx parcel build src/index.html",
+        "clean": "rm -rf dist; rm -rf node_modules; rm -rf .parcel-cache",
+        "format": "prettier --write \"**/*.{html,js,jsx,json,ts,tsx}\""
+    },
+    "author": "Gilbert Francois Duivesteijn",
+    "license": "Apache-2.0",
+    "devDependencies": {
+        "@types/p5": "^1.4.2",
+        "parcel": "*",
+        "prettier": "^2.7.1"
+    },
+    "dependencies": {
+        "p5": "^1.4.2"
+    }
+}
